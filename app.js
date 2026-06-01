@@ -362,7 +362,7 @@ function initResumeDownload() {
     btn.addEventListener('click', (e) => {
         e.preventDefault();
         const link = document.createElement('a');
-        link.href = 'assets/reshma_cv.pdf?v=' + Date.now();
+        link.href = 'reshma_cv.pdf?v=' + Date.now();
         link.download = 'Reshma_Katharin_Biju_CV.pdf';
         document.body.appendChild(link);
         link.click();
